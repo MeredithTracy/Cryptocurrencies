@@ -1,7 +1,3 @@
 # Cryptocurrencies
 
-Description of Project
-
-Accomplishments
-
-Tools Used
+Using crypto data retrieved from ![CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist), I began by preprocessing the data to prepare for a PCA unsupervised learning model. Then, I reduced the data dimensions to three principal components and created an updated dataframe. Afterwards, I created an elbow curve to find the best value for K to run the K-means algorithm to predict the K clusters for the data. Finally, using hvplot and Plotly, I created scatter plots to visualize these groups created with K clusters along with a table of currently tradable cryptocurrencies. 
